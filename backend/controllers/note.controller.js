@@ -6,7 +6,6 @@ const cart = require('../models/cart.model.js');
 // Add new user details
 exports.signup = (req, res) => {
 
-
     // Create a Note
     const users = new user({
         username: req.body.username,
